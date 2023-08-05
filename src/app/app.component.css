@@ -24,10 +24,19 @@ body{
     text-underline-offset: 0.5em;
 }
 
+footer{
+    font-size: 12px; 
+}
+
 footer a {
     color: #91b8d5;
 }
 footer a:hover {
     color:#ffffff;
     text-decoration: none;
+}
+
+footer .alignRight{
+    display: table-cell;
+    text-align: right;
 }
